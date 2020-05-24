@@ -1,0 +1,33 @@
+{
+  "name": "chartjs-plugin-highlight",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@types/chart.js": "^2.9.20",
+    "babel-jest": "^26.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-chartjs": "^0.2.0",
+    "jest": "^25.5.4",
+    "ts-loader": "^7.0.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "description": "My webpack project",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/color": "^3.0.1",
+    "@types/color-string": "^1.5.0",
+    "@types/jest": "^25.2.1",
+    "chart.js": "^2.9.3",
+    "color": "^3.1.2",
+    "color-js": "^1.0.5",
+    "color-string": "^1.5.3"
+  }
+}
